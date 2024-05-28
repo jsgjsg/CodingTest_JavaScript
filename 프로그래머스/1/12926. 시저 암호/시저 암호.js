@@ -1,6 +1,5 @@
 function solution(s, n) {
     let answer = '';
-    console.log(" ".charCodeAt(0));
     
     for(let i = 0; i < s.length; i++) {
         let c = s.charCodeAt(i);
