@@ -4,8 +4,8 @@ function solution(common) {
     let d = common[1] - common[0];
     let r = common[1] / common[0];
     
-    if(common[2] - common[1] == d) answer = common[0] + common.length * d;
-    else answer = common[0] * Math.pow(r, common.length);
+    if(common[2] - common[1] == d) answer = common[common.length - 1] + d;
+    else answer = common[common.length - 1] * r;
     
     return answer;
 }
