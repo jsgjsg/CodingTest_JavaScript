@@ -1,6 +1,5 @@
 function solution(n) {
     let answer = 0;
-    
     let prime = new Array(n + 1).fill(true);
     
     for(let i = 2; i <= n; i++) {
